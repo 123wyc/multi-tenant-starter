@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+
+spring:
+  thinking:
+    starter:
+      username: wyc
+
+management:
+
+  endpoints:
+    web:
+      exposure:
+        # 打开所有的监控点
+        include: "*"
+      base-path: /monitor
+  endpoint:
+    beans:
+      enabled: true
+
+    env:
+      enabled: true
+

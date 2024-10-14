@@ -1,0 +1,5 @@
+# boot??????
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+ com.thinking.starter.AppAutoConfiguration
+org.springframework.context.ApplicationListener=\
+ com.thinking.listener.MyPropertiesListener
